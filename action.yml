@@ -1,0 +1,9 @@
+name: "Profile stats"
+description: "Profile stats"
+author: "wzshiming"
+
+runs:
+  using: "composite"
+  steps:
+    - run: ${{ github.action_path }}/profile-stats.sh
+      shell: bash
