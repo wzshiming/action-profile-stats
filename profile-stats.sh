@@ -6,7 +6,6 @@ function command_exists() {
   type "${COMMAND}" >/dev/null 2>&1
 }
 
-
 function sync() {
   BIN="profile_stats"
   if command_exists "./${BIN}"; then
@@ -17,7 +16,7 @@ function sync() {
     return
   else
     if [[ -z "${TAG}" ]]; then
-      TAG="v0.1.0"
+      TAG="v0.2.0"
     fi
 
     if [[ -z "${GOOS}" ]]; then
