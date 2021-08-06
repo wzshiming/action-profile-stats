@@ -77,8 +77,8 @@ function sync() {
       exit 1
     fi
 
-    chmod +x "./$BIN"
-    "./$BIN" $@
+    chmod +x "./${BIN}"
+    "./${BIN}" $@
   fi
 }
 
