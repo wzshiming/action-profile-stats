@@ -16,7 +16,7 @@ function sync() {
     return
   else
     if [[ -z "${TAG}" ]]; then
-      TAG="v0.3.3"
+      TAG="v0.4.0"
     fi
 
     if [[ -z "${GOOS}" ]]; then
